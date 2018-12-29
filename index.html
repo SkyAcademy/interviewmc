@@ -5,14 +5,13 @@
 </head>
 <body>
 
-body{height:100%;
-   width:100%;
-   background-image:url(FunLand_1.png);/*your background image*/  
-   background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
-   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
-   /*css hack for ie*/     
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.FunLand_1.png',sizingMethod='scale');
-   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='FunLand_1.png',sizingMethod='scale')";
+.hero-image {
+  background-image: url("photographer.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 <h1>InterviewMC - In aanbouw</h1>
